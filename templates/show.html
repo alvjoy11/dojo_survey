@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='show.css')}}">
+</head>
+<body>
+	<h2>Submitted Information:</h2>
+	<p>Name: {{joy['name']}}</p>
+	<p>Dojo Location: {{joy['dojo']}}</p>
+	<p>Favorite Language: {{joy['fave_lang']}}</p>
+	<p>Comments: {{joy['comment']}}</p>
+	
+	<a href="/"><button>Go Back</button></a>
+
+</body>
+</html>
