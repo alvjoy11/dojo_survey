@@ -14,7 +14,7 @@ def submit():
 	# language = request.form['fave_lang']
 	# comments = request.form['comment']
 	print data
-	return render_template('show.html', joy=data)
+	return render_template('show.html', data=data)
 	# return redirect('/')
 	# redirects back to the '/' route
 
